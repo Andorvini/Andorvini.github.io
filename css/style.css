@@ -1,0 +1,38 @@
+.introduction {
+    color: red;
+}
+
+.firstText {
+    width: 100px;
+    background-color: blue;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.firstCod {
+    color: red;
+}
+
+h2 {
+    background-color: green;
+    color: #fff;
+    padding: 5px 5px;
+}
+
+h2.ableTo {
+    padding: 50px 50px;
+}
+
+ul {
+    margin-top: 25px;
+}
+
+li {
+    font-size: 25px;
+    border: 2px solid black;
+}
+
+.formText {
+    width: 550px;
+    text-align: center;
+}
