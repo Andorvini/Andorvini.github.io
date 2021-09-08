@@ -182,14 +182,74 @@ div, p, input, button, form, span, a, ul, li {
     font-size: 14px;
 }
 
+/* MEDIA */
 
+@media screen and (max-width:1200px) {
 
+    .container {
+        width: 960px;;
+    }
+}
 
+@media screen and (max-width:992px) {
 
+    .container {
+        width: 720px;;
+    }
 
+    .wrap {
+        flex-direction: column;
+    }
 
+    .dreamLife {
+        width: 100%;
+    }
 
+    .dreamLife__Text {
+        width: 100%;
+    }
 
+}
+
+@media screen and (max-width:768px) {
+
+    .container {
+        width: 540px;
+    }
+
+    .awaits__item {
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+
+    .container {
+        width: 90%;
+    }
+
+    .travelPhoto {
+        margin-top: 25px;
+    }
+
+    .awaits {
+        flex-wrap: wrap;
+    }
+
+    .awaits__item {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .formInput {
+        width: 100%;
+    }
+
+    .formButton {
+        width: 100%;
+    }
+}
 
 
 
