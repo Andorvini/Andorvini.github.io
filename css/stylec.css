@@ -36,10 +36,7 @@ div, p, input, button, form, span, a, ul, li {
 
 .wrap {
     display: flex;
-}
-
-.dreamLife {
-    margin-top: 150px;
+    align-items: center;
 }
 
 .dreamLife__Title {
@@ -102,6 +99,7 @@ div, p, input, button, form, span, a, ul, li {
     font-weight: 700;
     font-size: 19px;
     line-height: 25px;
+    margin-top: 20px;
 }
 
 .awaits__text {
