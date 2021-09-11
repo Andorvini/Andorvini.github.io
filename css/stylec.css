@@ -4,6 +4,7 @@ body {
     font-size: 15px;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -17,6 +18,10 @@ div, p, input, button, form, span, a, ul, li {
 .container {
     width: 1170px;
     margin: 0 auto;
+}
+
+.animated {
+    opacity: 0;
 }
 
 /* HEADER */
@@ -185,14 +190,24 @@ div, p, input, button, form, span, a, ul, li {
 @media screen and (max-width:1200px) {
 
     .container {
-        width: 960px;;
+        width: 960px;
     }
+
+    p {
+        width: auto;
+    }
+
+    .travelPhoto {
+        max-width: 550px;
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width:992px) {
 
     .container {
-        width: 720px;;
+        width: 720px;
     }
 
     .wrap {

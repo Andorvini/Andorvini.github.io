@@ -6,17 +6,18 @@
     <link rel="stylesheet" href="css/stylec.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
 
 <header class="header">
     <div class="container">
 
-        <img src="img/logo.png" alt="logo" class="logo">
+        <img src="img/logo.png" alt="logo" class="logo animated fadeInDown">
 
         <div class="wrap">
 
-            <div class="dreamLife">
+            <div class="dreamLife animated fadeInLeft">
                 <h1 class="dreamLife__Title">
                     С помощью верстки
                     я создам ту жизнь, о которой
@@ -28,7 +29,7 @@
                 <a class="button" href="">Двигаться к мечте!</a>
             </div>
 
-            <img class="travelPhoto" src="img/travelPhoto.png" alt="travelPhoto">
+            <img class="travelPhoto animated fadeInRight" src="img/travelPhoto.png" alt="travelPhoto">
 
         </div>
 
@@ -38,10 +39,10 @@
 
 <section>
 
-        <h2 class="awaits__title">Что меня ждет впереди</h2>
+        <h2 class="awaits__title animated">Что меня ждет впереди</h2>
 
     <div class="container">
-        <div class="awaits">
+        <div class="awaits animated">
 
             <div class="awaits__item">
                 <img class="awaits__photo" src="img/icon1.png" alt="1">
@@ -69,8 +70,8 @@
 
 <section class="formBlock">
     <div class="container">
-        <h2>Форма заказа билета в будущее</h2>
-        <form class="form" action="#">
+        <h2 class="form__title animated">Форма заказа билета в будущее</h2>
+        <form class="form animated" action="#">
             <input type="text" class="formInput" name="name" placeholder="Имя" required>
             <input type="email" class="formInput" name="email" placeholder="E-mail" required>
             <input type="tel" class="formInput" name="phone" placeholder="Телефон" required>
@@ -82,9 +83,13 @@
 
 <footer class="footer">
     <div class="container">
-        <p>© Все мои мечты защищены моим трудолюбием</p>
+        <p class="rights animated">© Все мои мечты защищены моим трудолюбием</p>
     </div>
 </footer>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/main.js"></script>
+
 
 </body>
 </html>
